@@ -1,0 +1,12 @@
+<app-layout>
+    <mat-toolbar class="page-header" role="heading">
+        <h1>Dashboard</h1>
+    </mat-toolbar>
+
+    <app-project-stat-chart [projectsStatsData]="projectsStatsData$ | async" [LotteryList]="lotteryList$ | async"></app-project-stat-chart>
+
+    <app-daily-line-chart [dailyLineChartData]="dailyLineChartData$ | async"></app-daily-line-chart>
+
+    <app-support-requests [supportRequestData]="supportRequestData$ | async"></app-support-requests>
+
+</app-layout>

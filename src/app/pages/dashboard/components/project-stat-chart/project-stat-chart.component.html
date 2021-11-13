@@ -1,0 +1,46 @@
+<div class="project-stat">
+    <mat-card class="project-stat__item">
+        <mat-card-title class="project-stat__title">
+            <h5 class="project-stat__title-text">{{projectsType.ticketSold}}</h5>
+        </mat-card-title>
+        <mat-card-content class="project-stat-content">
+            <div class="project-stat-content__total-info-wrapper">
+                <div class="project-stat-content__total-info">
+                    <p class="project-stat-content__total-info-users">{{projectsStatsData.ticketsSold}}</p>
+                </div>
+                <div class="project-stat-content__total-info-chart">
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="project-stat__item">
+        <mat-card-title class="project-stat__title">
+            <h5 class="project-stat__title-text">{{projectsType.totalTicket}}</h5>
+        </mat-card-title>
+        <mat-card-content class="project-stat-content">
+            <div class="project-stat-content__total-info-wrapper">
+                <div class="project-stat-content__total-info">
+                    <p class="project-stat-content__total-info-users">{{projectsStatsData.maxTicketsToSell}}</p>
+                </div>
+                <div class="project-stat-content__total-info-chart">
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="project-stat__item">
+        <mat-card-title class="project-stat__title">
+            <h5 class="project-stat__title-text">{{projectsType.totalLotteries}}</h5>
+        </mat-card-title>
+        <mat-card-content class="project-stat-content">
+            <div class="project-stat-content__total-info-wrapper">
+                <div class="project-stat-content__total-info">
+                    <p class="project-stat-content__total-info-users">{{LotteryList.length}}</p>
+                </div>
+                <div class="project-stat-content__total-info-chart">
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
