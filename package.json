@@ -23,7 +23,7 @@
         "apexcharts": "3.26.2",
         "echarts": "^5.2.2",
         "font-awesome": "^4.7.0",
-        "ng-apexcharts": "1.5.9",
+        "ng-apexcharts": "^1.5.12",
         "ngx-echarts": "6.0.1",
         "ngx-toastr": "13.2.1",
         "ngx-trend": "6.1.1",
